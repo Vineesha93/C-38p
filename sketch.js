@@ -20,11 +20,11 @@ function setup() {
  
   createCanvas(400, 400);
   
-  var monkey = createSprite(160, 330, 10, 10);
+  monkey = createSprite(160, 330, 10, 10);
   monkey.addAnimation("monkey_running", monkey_running);
   monkey.scale = 0.2;
   
-  var ground = createSprite(200, 390, 400, 10);
+  ground = createSprite(200, 390, 400, 10);
   ground.velocityX = -3;
 }
 
